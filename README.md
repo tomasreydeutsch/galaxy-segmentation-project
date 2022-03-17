@@ -15,6 +15,7 @@ Para código vamos a utilizar otros repositorios específicos
 Vamos a complementar GitHub con las siguientes herramientas
 
 - Una [lista de referencias en ADS](https://ui.adsabs.harvard.edu/user/libraries/EOI-spThSiWbRGQLTxt-Rw)
+- Una [lista de artículos interesantes](https://github.com/lbignone/galaxy-segmentation-project/wiki/Art%C3%ADculos-interesantes) (en la wiki)
 
 
 ## Herramientas de desarrollo recomendadas
