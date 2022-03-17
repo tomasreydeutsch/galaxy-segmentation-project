@@ -28,3 +28,4 @@ Vamos a complementar GitHub con las siguientes herramientas
 - [pyenv](https://github.com/pyenv/pyenv) para gestionar versiones de Python
 - [hydra](https://hydra.cc/docs/intro/) para configurar codigo de machine learning
 - [Weights & Biases](https://wandb.ai/site) para registrar experimentos y resultados de ML
+- [Astropy](https://docs.astropy.org/en/stable/index.html) librería útil para astrónomos
