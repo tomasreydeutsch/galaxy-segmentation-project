@@ -1,5 +1,9 @@
 # Proyecto de segmentación automática de galaxias.
 
+## Plan
+
+https://docs.google.com/document/d/1wLyB8W37tP0-Q-A-71yFa0DtX4yhJS2f1xV5iAag8ZM/edit
+
 ## Acerca de este repositorio
 
 Este repositorio está destinado a gestionar de manera general el proyecto. Para ello contamos con los siguientes recursos:
