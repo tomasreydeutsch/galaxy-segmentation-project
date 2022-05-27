@@ -5,7 +5,7 @@ from pathlib import Path
 import ssl
 
 # Crea una carpeta nueva, "Mapas", en la que guarda los archivos .gz.
-basepath = Path('./Mapas de Segmentación')
+basepath = Path('.')
 path = basepath / 'Mapas'
 path.mkdir(exist_ok=True)
 
