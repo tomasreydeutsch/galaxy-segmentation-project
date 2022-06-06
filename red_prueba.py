@@ -16,8 +16,7 @@ def resize(input_image, input_mask):
 
 
 def augment(input_image, input_mask):
-    if tf.random.uniform(()) > 0.5:
-        # Random flipping of the image and mask
+    if np.random.uniform() > 0.5:
         input_image = tf.image.flip_left_right(input_image)
         input_mask = tf.image.flip_left_right(input_mask)
 
@@ -49,7 +48,6 @@ def load_image_test(datapoint):
 
     return input_image, input_mask
 
+
 train_dataset = dataset["train"].map(tf.autograph.experimental.do_not_convert(load_image_train), num_parallel_calls=tf.data.AUTOTUNE)
 test_dataset = dataset["test"].map(tf.autograph.experimental.do_not_convert(load_image_test), num_parallel_calls=tf.data.AUTOTUNE)
-
-
